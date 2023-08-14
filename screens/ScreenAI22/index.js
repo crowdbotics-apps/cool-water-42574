@@ -15,7 +15,9 @@ const Screen = () => {
     }}>
         <Text style={styles.buttonText}>Bookmarked Doctors</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={() => {
+      navigation.navigate("ScreenAI24");
+    }}>
         <Text style={styles.buttonText}>Filter option</Text>
       </TouchableOpacity>
       <View style={styles.cardContainer}>

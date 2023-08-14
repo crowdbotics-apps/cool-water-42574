@@ -13,7 +13,9 @@ const SignUpScreen = () => {
     }}>
         <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.signUpButton}>
+      <TouchableOpacity style={styles.signUpButton} onPress={() => {
+      navigation.navigate("Untitled7");
+    }}>
         <Text style={styles.signUpButtonText}>Sign Up</Text>
       </TouchableOpacity>
       <View style={styles.termsContainer}>

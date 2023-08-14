@@ -18,7 +18,11 @@ const Untitled7 = () => {
         navigation.navigate("ScreenAI9");
       }}><Text style={styles.IpFBRHiq}>{"My Benefit ID cards"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI10");
-      }}><Text style={styles.KjQUEmDw}>{"Specific plan - Details"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.KjQUEmDw}>{"Specific plan - Details"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI12");
+      }}><Text style={styles.sHeYkdMQ}>{"Links"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI14");
+      }}><Text style={styles.RgjQXmRw}>{"Find a Doctor "}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -41,6 +45,20 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   KjQUEmDw: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  sHeYkdMQ: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  RgjQXmRw: {
     width: 100,
     height: 50,
     lineHeight: 14,

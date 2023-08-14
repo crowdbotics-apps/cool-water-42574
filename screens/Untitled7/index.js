@@ -14,7 +14,11 @@ const Untitled7 = () => {
       flex: 1
     }}><Pressable onPress={() => {
         navigation.navigate("ScreenAI8");
-      }}><Text style={styles.qgUMYRSa}>{"Notifications"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.qgUMYRSa}>{"Notifications"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI9");
+      }}><Text style={styles.IpFBRHiq}>{"My Benefit ID cards"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI10");
+      }}><Text style={styles.KjQUEmDw}>{"Specific plan - Details"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -23,6 +27,20 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   qgUMYRSa: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  IpFBRHiq: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  KjQUEmDw: {
     width: 100,
     height: 50,
     lineHeight: 14,

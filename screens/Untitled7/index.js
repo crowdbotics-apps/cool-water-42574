@@ -20,9 +20,7 @@ const Untitled7 = () => {
         navigation.navigate("ScreenAI10");
       }}><Text style={styles.KjQUEmDw}>{"Specific plan - Details"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI12");
-      }}><Text style={styles.sHeYkdMQ}>{"Links"}</Text></Pressable><Pressable onPress={() => {
-        navigation.navigate("ScreenAI14");
-      }}><Text style={styles.RgjQXmRw}>{"Find a Doctor "}</Text></Pressable></ScrollView>
+      }}><Text style={styles.sHeYkdMQ}>{"Links"}</Text></Pressable><Text style={styles.RgjQXmRw}>{"Find a Doctor "}</Text></ScrollView>
     </SafeAreaView>;
 };
 

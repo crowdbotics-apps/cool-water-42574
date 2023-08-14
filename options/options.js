@@ -1,10 +1,11 @@
 export const globalOptions = {
-  name: "cool-water-42574",
-  url: "https://cool-water-42574.botics.co",
-  api: "https://cool-water-42574.botics.co/api/v1",
-  screenOptions: {
-    headerShown: false
-  }
+  "name": "cool-water-42574",
+  "url": "https://cool-water-42574.botics.co",
+  "api": "https://cool-water-42574.botics.co/api/v1",
+  "screenOptions": {
+    "headerShown": false
+  },
+  "initialRoute": "ScreenAI10"
 };
 export const modulesOptions = {
   "@modules/app-menu": {

@@ -1,7 +1,9 @@
+import { useNavigation } from "@react-navigation/native";
 import React from 'react';
 import { View, Text, TouchableOpacity, SafeAreaView } from 'react-native';
 
 const Screen = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.container}>
       <View style={styles.section1}>
         <TouchableOpacity style={styles.button}>
@@ -21,7 +23,9 @@ const Screen = () => {
         <TouchableOpacity style={styles.cardButton}>
           <Text style={styles.cardButtonText}>Download</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.cardButton}>
+        <TouchableOpacity style={styles.cardButton} onPress={() => {
+        navigation.navigate("ScreenAI11");
+      }}>
           <Text style={styles.cardButtonText}>Share Option</Text>
         </TouchableOpacity>
       </View>

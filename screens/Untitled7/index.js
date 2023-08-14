@@ -20,7 +20,11 @@ const Untitled7 = () => {
         navigation.navigate("ScreenAI10");
       }}><Text style={styles.KjQUEmDw}>{"Specific plan - Details"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI12");
-      }}><Text style={styles.sHeYkdMQ}>{"Links"}</Text></Pressable><Text style={styles.RgjQXmRw}>{"Find a Doctor "}</Text></ScrollView>
+      }}><Text style={styles.sHeYkdMQ}>{"Links"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI22");
+      }}><Text style={styles.RgjQXmRw}>{"Find a Doctor "}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI27");
+      }}><Text style={styles.dwNtwuRV}>{"Family members"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -57,6 +61,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   RgjQXmRw: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  dwNtwuRV: {
     width: 100,
     height: 50,
     lineHeight: 14,

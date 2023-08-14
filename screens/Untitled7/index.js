@@ -26,7 +26,9 @@ const Untitled7 = () => {
         navigation.navigate("ScreenAI27");
       }}><Text style={styles.dwNtwuRV}>{"Family members"}</Text></Pressable><Pressable onPress={() => {
         navigation.navigate("ScreenAI30");
-      }}><Text style={styles.GkVVJZaH}>{"Addition Content"}</Text></Pressable></ScrollView>
+      }}><Text style={styles.GkVVJZaH}>{"Addition Content"}</Text></Pressable><Pressable onPress={() => {
+        navigation.navigate("ScreenAI32");
+      }}><Text style={styles.rsngvQnL}>{"Settings"}</Text></Pressable></ScrollView>
     </SafeAreaView>;
 };
 
@@ -77,6 +79,13 @@ const styles = StyleSheet.create({
     borderRadius: 0
   },
   GkVVJZaH: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
+  },
+  rsngvQnL: {
     width: 100,
     height: 50,
     lineHeight: 14,

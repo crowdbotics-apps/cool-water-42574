@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, Clipboard, Alert } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import React, { useState } from "react";
+import { View, Text, TextInput, TouchableOpacity, Clipboard, Alert, SafeAreaView } from "react-native";
 
 const App = () => {
-  const [email, setEmail] = useState('');
-  const [appShareLink, setAppShareLink] = useState('');
+  const [email, setEmail] = useState("");
+  const [appShareLink, setAppShareLink] = useState("");
 
   const handleCopyLink = () => {
     Clipboard.setString(appShareLink);
-    Alert.alert('Link Copied', 'The app-share link has been copied to the clipboard.');
+    Alert.alert("Link Copied", "The app-share link has been copied to the clipboard.");
   };
 
   const handleSend = () => {// Implement send functionality here
@@ -46,23 +45,23 @@ const App = () => {
 const styles = {
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5F5F5'
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5F5F5"
   },
   inputContainer: {
     marginBottom: 20
   },
   label: {
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginBottom: 5
   },
   input: {
     width: 250,
     height: 40,
     borderWidth: 1,
-    borderColor: '#CCCCCC',
+    borderColor: "#CCCCCC",
     borderRadius: 5,
     paddingHorizontal: 10
   },
@@ -74,41 +73,41 @@ const styles = {
     marginBottom: 5
   },
   copyButton: {
-    backgroundColor: '#007AFF',
+    backgroundColor: "#007AFF",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5
   },
   copyButtonText: {
-    color: '#FFFFFF',
+    color: "#FFFFFF",
     fontSize: 16,
-    fontWeight: 'bold'
+    fontWeight: "bold"
   },
   buttonContainer: {
-    flexDirection: 'row'
+    flexDirection: "row"
   },
   sendButton: {
-    backgroundColor: '#007AFF',
+    backgroundColor: "#007AFF",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5,
     marginRight: 10
   },
   sendButtonText: {
-    color: '#FFFFFF',
+    color: "#FFFFFF",
     fontSize: 16,
-    fontWeight: 'bold'
+    fontWeight: "bold"
   },
   cancelButton: {
-    backgroundColor: '#CCCCCC',
+    backgroundColor: "#CCCCCC",
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5
   },
   cancelButtonText: {
-    color: '#FFFFFF',
+    color: "#FFFFFF",
     fontSize: 16,
-    fontWeight: 'bold'
+    fontWeight: "bold"
   }
 };
 export default App;
